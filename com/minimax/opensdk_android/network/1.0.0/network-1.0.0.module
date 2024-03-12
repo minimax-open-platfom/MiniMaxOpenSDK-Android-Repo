@@ -1,0 +1,232 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.minimax.opensdk_android",
+    "module": "network",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "de2ohyxuivgfzib7qkpnabuy6e"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-sse",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "network-1.0.0.aar",
+          "url": "network-1.0.0.aar",
+          "size": 65842,
+          "sha512": "526943680fe7028da5dc77cb84229216f53ca02bb38ca87df278225e17a1f5b83635eee43417cb34432439249c680108fcc1bb658677737e7742b6b6fdad59e4",
+          "sha256": "ef01dca68bc42b709605ba1a8739458e7e851592a31bb9f83c3ea0d807d1ba3f",
+          "sha1": "618ff7cf087395486e77e2974d971bd3b1112252",
+          "md5": "09263f7bebb1846b4a20dc1e13b41ee7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-sse",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains",
+              "module": "annotations-java5"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "network-1.0.0.aar",
+          "url": "network-1.0.0.aar",
+          "size": 65842,
+          "sha512": "526943680fe7028da5dc77cb84229216f53ca02bb38ca87df278225e17a1f5b83635eee43417cb34432439249c680108fcc1bb658677737e7742b6b6fdad59e4",
+          "sha256": "ef01dca68bc42b709605ba1a8739458e7e851592a31bb9f83c3ea0d807d1ba3f",
+          "sha1": "618ff7cf087395486e77e2974d971bd3b1112252",
+          "md5": "09263f7bebb1846b4a20dc1e13b41ee7"
+        }
+      ]
+    }
+  ]
+}
